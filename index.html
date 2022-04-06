@@ -1,16 +1,16 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="8Miles8 Made this website, and it's so cool.">
-  </head>
-  <body>
-    <h1>Hello World</h1>
-    <p>I, 8Miles8, made this website.
-    <br>I'm so cool.</p>?>
-    <form action="/webb/browse.php" method="post">
-    url: <input type="text" name="url"><br>
-    <input type="submit">
-    </form>
-  </body>
-</html>
+<body>
+
+<h1>browser</h1>
+/* gets the data from a URL */
+
+?>
+
+
+<form action="/webb/browse.php" method="post">
+url: <input type="text" name="url"><br>
+<input type="submit">
+</form>
+
+Welcome <?php echo $_POST["url"]; ?><br>
+
+</body>
