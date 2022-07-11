@@ -1,47 +1,201 @@
-<!DOCTYPE Html>
-<html>
-    <head>
-        <meta charset="UFT-8">
-        <meta name="Hey look, it's a name!" content="Hey look, it's a description of this website's content!">
-        <title>Hey look, it's a title!</title>
-    </head>
-    <body style="background-color: black;">
-        <header>
-            <h1 style="color: pink;">Hey look, it's a header!</h1>
-            <!-- Hey look, it's a comment! -->
-            <nav>
-                
-            </nav>
-        </header>
-        <main>
-            <article>
-                <section>
-                    <h1 style="color: pink;">Hey look, it's a section header! </h1>
-                    <p style="color: pink; background-color: #ff0564;">Hey look, it's a paragraph! <b>Hey look, this text is bold!</b> <i>Hey look, this text is italicized!</i></p>
-                </section>
-                <section>
-                    <head>
-                        <link rel="stylesheet"
-                            href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/styles/default.min.css">
-                        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/highlight.min.js"></script>
-                        <script>hljs.initHighlightingOnLoad();</script>
-                    </head>
-                    <body>
-                        <pre><code class="python">
-                    def fib(n):
-                        a, b = 0, 1
-                            while a < n:
-                                print(a, end=' ')
-                                a, b = b, a+b
-                                print()
-                            fib(1000)</code></pre>
-                        </body>
-                </section>
-            </article>
-        </main>
-        <footer>
-            <p style="color: pink;"> Hey look, it's a footer with an embedded video! </p>
-            <iframe width="713" height="401" src="https://www.youtube.com/embed/dQw4w9WgXcQ?&autoplay=1&loop=1&mute=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </footer>
-    </body>
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>8Miles8</title>
+	<meta name="description" content="8Miles8's little corner of the internet.">
+	<meta name="author" content="8Miles8">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="ufo.jpg" >
+
+</head>
+   <!-- Header
+   ================================================== -->
+   <header id="home">
+
+      <nav id="nav-wrap">
+
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+            <li><a class="smoothscroll" href="#testimonials">Testimonials</a></li>
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">I'm 8Miles8.</h1>
+            <h3>I'm a <span>tech enthusiast</span>, <span>student</span>, and ameteur <span>developer</span> who's learning as I go and enjoys <span>highlighting things</span>. Let's <a class="smoothscroll" href="#about">start scrolling</a>
+            and learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
+            <hr />
+            <ul class="social">
+               <li><a href="https://www.github.com/eightmileseight" target="_blank"><i class="fa fa-github"></i></a></li>
+            </ul>
+         </div>
+      </div>
+
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
+<body>
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+      <div class="row">
+
+         <div class="three columns">
+
+            <img class="profile-pic"  src="images/me.jpeg"/>
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2>About Me</h2>
+
+            <p>I started learning programming a few years ago, and since then I've been learning as I go. I'm completely self-taught, fluent in python, and currently learning HTML, CSS, JavaScript, and Lua. I use this website to try things out as I learn HTML/CSS/JS, so check back later, and maybe there'll be something new!</p>
+
+            <div class="row">
+
+               <div class="columns contact-details">
+
+                  <h2>Contact Details</h2>
+                  <p class="address">
+						   <span>8Miles8</span><br>
+						   <span>Earth
+                     </span><br>
+						   <span>(123) 456-7890</span><br>
+                     <span>totallyrealemail@notfake.con</span>
+					   </p>
+
+               </div>
+
+               <div class="columns download">
+                  <p>
+                     <a href="" target="_blank" class="button"><i class="fa fa-download"></i>Useless Button</a>
+                  </p>
+               </div>
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
+
+
+   <!-- Testimonials Section
+   ================================================== -->
+   <section id="testimonials">
+
+      <div class="text-container">
+
+         <div class="row">
+
+            <div class="two columns header-col">
+
+               <h1><span>Client Testimonials</span></h1>
+
+            </div>
+
+            <div class="ten columns flex-container">
+
+               <div class="flexslider">
+
+                  <ul class="slides">
+
+                     <li>
+                        <blockquote>
+                           <p>Never gonna give you up, never gonna let you down, never gonna run around and desert you. 8Miles8 is truly reliable.
+                           </p>
+                           <cite>Rick Astley</cite>
+                        </blockquote>
+                     </li> <!-- slide ends -->
+
+                     <li>
+                        <blockquote>
+                           <p>Don't you dare quote me on your website.
+                           </p>
+                           <cite>My sister</cite>
+                        </blockquote>
+                     </li> <!-- slide ends -->
+
+                  </ul>
+
+               </div> <!-- div.flexslider ends -->
+
+            </div> <!-- div.flex-container ends -->
+
+         </div> <!-- row ends -->
+
+       </div>  <!-- text-container ends -->
+
+   </section> <!-- Testimonials Section End-->
+
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="social-links">
+                 <li><a href="https://www.github.com/eightmileseight" target="_blank"><i class="fa fa-github"></i></a></li>
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
+
+</body>
+
 </html>
