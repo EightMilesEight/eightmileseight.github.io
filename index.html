@@ -1,409 +1,201 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
 
-    <!--- basic page needs
-    ================================================== -->
-    <meta charset="utf-8">
-    <title>C4GI</title>
-    <meta name="description" content="">
-    <meta name="author" content="">
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>8Miles8</title>
+	<meta name="description" content="8Miles8's little corner of the internet.">
+	<meta name="author" content="8Miles8">
 
-    <!-- mobile specific metas
-    ================================================== -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-    <!-- CSS
+	<!-- CSS
     ================================================== -->
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/main.css">
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
 
-    <!-- script
-    ================================================== -->
-    <script src="js/modernizr.js"></script>
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
 
-    <!-- favicons
-    ================================================== -->
-    <link rel="shortcut icon" href="icon.png" >
-    <link rel="manifest" href="site.webmanifest">
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="ufo.jpg" >
 
 </head>
+   <!-- Header
+   ================================================== -->
+   <header id="home">
 
-<body id="top">
+      <nav id="nav-wrap">
 
-    <!-- preloader
-    ================================================== -->
-    <div id="preloader">
-        <div id="loader" class="dots-jump">
-            <div></div>
-            <div></div>
-            <div></div>
-        </div>
-    </div>
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
 
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+            <li><a class="smoothscroll" href="#testimonials">Testimonials</a></li>
+         </ul> <!-- end #nav -->
 
-    <!-- header
-    ================================================== -->
-    <header class="s-header">
+      </nav> <!-- end #nav-wrap -->
 
-        <div class="header-logo">
-            <a class="site-logo" href="index.html">
-                <img src="images/header-logo.png" alt="Homepage">
-            </a>
-        </div>
-
-        <nav class="header-nav-wrap">
-            <ul class="header-nav">
-                <li class="current"><a href="index.html" title="Home">Home</a></li>
-                <li><a href="about.html" title="About">About</a></li>
-                <li><a href="events.html" title="Services">Events</a></li>
-                <li><a href="contact.html" title="Contact us">Contact</a></li>	
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">I'm 8Miles8.</h1>
+            <h3>I'm a <span>tech enthusiast</span>, <span>student</span>, and ameteur <span>developer</span> who's learning as they go and enjoys <span>highlighting things</span>. Let's <a class="smoothscroll" href="#about">start scrolling</a>
+            and learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
+            <hr />
+            <ul class="social">
+               <li><a href="https://www.github.com/eightmileseight" target="_blank"><i class="fa fa-github"></i></a></li>
             </ul>
-        </nav>
+         </div>
+      </div>
 
-        <a class="header-menu-toggle" href="#0"><span>Menu</span></a>
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
 
-    </header> <!-- end s-header -->
+   </header> <!-- Header End -->
+<body>
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+      <div class="row">
+
+         <div class="three columns">
+
+            <img class="profile-pic"  src="images/me.jpeg"/>
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <h2>About Me</h2>
+
+            <p>I'm 8Miles8. I started learning programming a few years ago, and since then I've been learning as I go. I'm completely self-taught, fluent in python, and currently learning SQL, HTML, CSS, JavaScript, and Lua. I'm a big fan of xkcd and love tweaking my Debian Linux installation. Above all, I'm a problem-solver. Throughout my experience, I've become an expert researcher and effecient Googler. I'm at my best when faced with a seemingly unsolvable challenge. I believe the best way to learn something new is to jump right in, and that's what I'm doing. I use this website to try things out as I learn HTML/CSS/JS, so check back later, and maybe there'll be something new!</p>
+
+            <div class="row">
+
+               <div class="columns contact-details">
+
+                  <h2>Contact Details</h2>
+                  <p class="address">
+						   <span>8Miles8</span><br>
+						   <span>Earth
+                     </span><br>
+						   <span>(123) 456-7890</span><br>
+                     <span>totallyrealemail@notfake.con</span>
+					   </p>
+
+               </div>
+
+               <div class="columns download">
+                  <p>
+                     <a href="" target="_blank" class="button"><i class="fa fa-download"></i>Useless Button</a>
+                  </p>
+               </div>
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
 
 
-    <!-- hero
-    ================================================== -->
-    <section class="s-hero" data-parallax="scroll" data-image-src="images/header-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+   <!-- Testimonials Section
+   ================================================== -->
+   <section id="testimonials">
 
-        <div class="hero-left-bar"></div>
+      <div class="text-container">
 
-        <div class="row hero-content">
+         <div class="row">
 
-            <div class="column large-full hero-content__text">
-                <h1>
-                    The <br>
-                    Campaign For <br>
-                    Gender Inclusivity
-                </h1>
+            <div class="two columns header-col">
 
-                <div class="hero-content__buttons">
-                    <a href="events.html" class="btn btn--stroke">Upcoming Events</a>
-                    <a href="about.html" class="btn btn--stroke">About Us</a>
-                </div>
-            </div> <!-- end hero-content__text -->
+               <h1><span>Client Testimonials</span></h1>
 
-        </div> <!-- end hero-content -->
-
-        <ul class="hero-social">
-            <li class="hero-social__title">Follow Us</li>
-            <li>
-                <a href="https://www.instagram.com/_.c4gi_/" style="color:#ffffff" title="">Instagram</a>
-            </li>
-        </ul> <!-- end hero-social -->
-
-        <div class="hero-scroll">
-            <a href="#about" class="scroll-link smoothscroll">
-                Scroll For More
-            </a>
-        </div> <!-- end hero-scroll -->
-
-    </section> <!-- end s-hero -->
-
-
-    <!-- about
-    ================================================== -->
-    <section id="about" class="s-about">
-
-        <div class="row row-y-center about-content">
-
-            <div class="column large-half medium-full">
-                <h3 class="subhead">Campaign For Gender Inclusivity (C4GI)</h3>
-                <p class="lead">
-                Vero autem et officiis officia sint in odio in iusto. 
-                Blanditiis tempore ipsa saepe quaerat quas sed. Ut velit 
-                necessitatibus est repellat sunt quia fuga doloremque. 
-                Nostrum et ut optio suscipit eos quisquam et. Nulla molestiae 
-                voluptates hic et accusantium occaecati recusandae veniam cum.
-                </p>
-                <a href="about.html" class="btn btn--primary btn--about">More About C4GI</a>
             </div>
 
-            <div class="column large-half medium-full">
-                <ul class="about-sched">
-                    <li>
-                        <h4>Weekly Meeting</h4>
-                        <p>
-                        Wednesday - 8:00 PM - 9:00 PM ET <br>
-                        Zoom
-                        </p>
-                    </li>
-                    <li>
-                        <h4>Lorem Ipsum</h4>
-                        <p>
-                        Nostrum et ut optio suscipit eos quisquam et. <br>
-                        Blanditiis tempore ipsa saepe quaerat quas sed.
-                        </p>
-                    </li>
-                    <li>
-                        <h4>Lorem Ipsum</h4>
-                        <p>
-                        Nostrum et ut optio suscipit eos quisquam et. <br>
-                        Blanditiis tempore ipsa saepe quaerat quas sed.
-                        </p>
-                    </li>
-                </ul> <!-- end about-sched-->
-            </div>
+            <div class="ten columns flex-container">
 
-        </div> <!-- end about-content -->
+               <div class="flexslider">
 
-    </section> <!-- end s-about -->
+                  <ul class="slides">
 
+                     <li>
+                        <blockquote>
+                           <p>Never gonna give you up, never gonna let you down, never gonna run around and desert you. 8Miles8 is truly reliable.
+                           </p>
+                           <cite>Rick Astley</cite>
+                        </blockquote>
+                     </li> <!-- slide ends -->
 
-    <!-- connect
-    ================================================== -->
-    <section class="s-connect">
+                     <li>
+                        <blockquote>
+                           <p>Don't you dare quote me on your website.
+                           </p>
+                           <cite>My sister</cite>
+                        </blockquote>
+                     </li> <!-- slide ends -->
 
-        <div class="row connect-content">
-            <div class="column large-half tab-full">
-                <h3 class="display-1">Join C4GI</h3>
-                <p>
-                Delectus distinctio fuga commodi quod temporibus consequatur. 
-                Voluptatem dolor vel impedit. Totam ut vel nihil ab. Nostrum ipsa 
-                necessitatibus. Iste voluptatibus qui velit et voluptatem laudantium 
-                et explicabo. Dignissimos ut voluptatum laboriosam nisi fugiat.
-                Nulla dolores voluptate sit unde in doloribus est. Eveniet qui et 
-                quia pariatur consequatur officia facere aut.
-                </p>
+                  </ul>
 
-                <a href="join-us.html" class="btn btn--primary h-full-width">Join Us</a>
-            </div>
-            <div class="column large-6 tab-full">
-                        <h3>Contact Info</h3>
-                        <p>
-                        campaign4genderinclusivity@gmail.com<br>
-                        Instagram: @_.c4gi_<br>
-			Facebook: Coming Soon!
-                        </p>
-                    </div>
-        </div> <!-- end connect-content  -->
+               </div> <!-- div.flexslider ends -->
 
-    </section> <!-- end s-connect -->
+            </div> <!-- div.flex-container ends -->
+
+         </div> <!-- row ends -->
+
+       </div>  <!-- text-container ends -->
+
+   </section> <!-- Testimonials Section End-->
 
 
-    <!-- events
-    ================================================== -->
-    <section class="s-events">
+   <!-- footer
+   ================================================== -->
+   <footer>
 
-        <div class="row events-header">
-            <div class="column">
-                <a href="events.html"><h2 class="subhead">Upcoming Events</h2></a>
-            </div>
-        </div> <!-- end event-header -->
+      <div class="row">
 
-        <div class="row wide block-large-1-2 block-900-full events-list">
-            <div class="column events-list__item">
-                <h3 class="display-1 events-list__item-title">
-                    <a href="March For Trans Justice.html" title="">March For Trans Justice</a>
-                </h3>
-                <p>
-                Et consequatur nihil odio odit voluptatem qui. Dolores doloribus 
-                cupiditate totam esse dolores quod. Magni aut incidunt fugiat 
-                labore est ut non ipsam nihil. Voluptate rerum dolores unde 
-                voluptas. Et similique praesentium dolor. Et quod 
-                eius sint at quae est dolores. Beatae quo facere hic.
-                </p>
-                <ul class="events-list__meta">
-                    <li class="events-list__meta-date">Saturday, July 16, 2022</li>
-                    <li class="events-list__meta-time">12:00 PM ET</li>
-                    <li class="events-list__meta-location">Mindowaskin Park; 385 E Broad St, Westfield, NJ 07090</li>
-                </ul>
-            </div>
-            <div class="column events-list__item">
-                <h3 class="display-1 events-list__item-title">
-                    <a href="" title="">Protest</a>
-                </h3>
-                <p>
-                Laborum distinctio minima doloribus reiciendis aut aliquid. 
-                Deleniti est adipisci ut quo ducimus eum ratione voluptas. 
-                Voluptatem tenetur rem ratione velit ut. Repudiandae atque 
-                perspiciatis est similique rerum nam qui iusto minus. Sapiente 
-                porro dolores consequatur optio animi aut facere.
-                </p>
-                <ul class="events-list__meta">
-                    <li class="events-list__meta-date">Saturday, July 27, 2022</li>
-                    <li class="events-list__meta-time">6:00PM - 8:30PM</li>
-                    <li class="events-list__meta-location">Somewhere on Earth</li>
-                </ul>
-            </div>
-            <div class="column events-list__item">
-                <h3 class="display-1 events-list__item-title">
-                    <a href="" title="">Rally</a>
-                </h3>
-                <p>
-                Laborum distinctio minima doloribus reiciendis aut aliquid. 
-                Deleniti est adipisci ut quo ducimus eum ratione voluptas. 
-                Voluptatem tenetur rem ratione velit ut. Repudiandae atque 
-                perspiciatis est similique rerum nam qui iusto minus. Sapiente 
-                porro dolores consequatur optio animi aut facere.
-                </p>
-                <ul class="events-list__meta">
-                    <li class="events-list__meta-date">Friday, July 26, 2022</li>
-                    <li class="events-list__meta-time">5:00PM - 6:30PM</li>
-                    <li class="events-list__meta-location">Somewhere on Earth</li>
-                </ul>
-            </div>
-            <div class="column events-list__item">
-                <h3 class="display-1 events-list__item-title">
-                    <a href="" title="">Picnic</a>
-                </h3>
-                <p>
-                Optio temporibus suscipit magnam. Consequatur doloribus sed. 
-                Explicabo molestiae est minima. Distinctio quis optio architecto 
-                molestiae officia molestiae qui veniam minima. Nemo placeat ex 
-                dolor ratione qui autem eius vel. In dolorem aut enim aspernatur 
-                molestias nostrum.
-                </p>
-                <ul class="events-list__meta">
-                    <li class="events-list__meta-date">Sunday, July 28, 2022</li>
-                    <li class="events-list__meta-time">2:00PM - 5:30PM</li>
-                    <li class="events-list__meta-location">Somewhere on Earth</li>
-                </ul>
-            </div>
-            </div> <!-- end events-list__item -->
+         <div class="twelve columns">
 
-        </div> <!-- end events-list -->
+            <ul class="social-links">
+                 <li><a href="https://www.github.com/eightmileseight" target="_blank"><i class="fa fa-github"></i></a></li>
+            </ul>
 
-    </section> <!-- end s-events -->
+         </div>
 
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
 
-    <!-- series
-    ================================================== -->
-    <section class="s-series">
+      </div>
 
-        <div class="series-img" style="background-image: url('images/series-2000.jpg');"></div>
+   </footer> <!-- Footer End-->
 
-        <div class="row row-y-center series-content">
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
 
-            <div class="column large-half medium-full">
-                <h3 class="subhead">Statistics</h3>
-                <p>
-		1 in 3 LGBTQ youth reported that they had been physically threatened or harmed in their lifetime due to their LGBTQ identity<br>
-		<br>
-		40% of LGBTQ respondents seriously considered attempting suicide in the past twelve months, with more than half of transgender and nonbinary youth having seriously considered suicide<br>
-		<br>
-		86% of LGBTQ youth said that recent politics have negatively impacted their well-being
-                </p>
-            </div> <!-- end column -->
-
-            <div class="column large-half medium-full">
-                <div class="series-support__buttons">
-                    <a href="https://www.thetrevorproject.org/" class="btn btn--large h-full-width">The Trevor Project</a>
-                    <a href="https://988lifeline.org/" class="btn btn--large h-full-width">988 Lifeline</a>
-                </div>
-
-                <div class="series-support__description">
-                    <p>
-                    Feeling depressed, or experiencing thoughts/actions of suicide or self harm? Click the above links to speak to trained experts. You can also visit the <a href="https://itgetsbetter.org/">It Gets Better Project</a> to hear stories of how it got better from thousands of LGBTQ+ people around the globe.
-                    </p>
-                </div>
-            </div> <!-- end column -->
-            
-        </div> <!-- series-content -->
-
-    </section> <!-- end s-series -->
-
-
-    <!-- Social
-    ================================================== -->
-    <section class="s-social">
-            
-        <div class="row social-content">
-            <div class="column">
-                <ul class="social-list">
-                    <li class="social-list__item">
-                        <a href="#0" title="">
-                            <span class="social-list__icon social-list__icon--facebook"></span>
-                            <span class="social-list__text">Facebook</span>
-                        </a>
-                    </li>
-                    <li class="social-list__item">
-                        <a target="_blank" href="https://www.instagram.com/_.c4gi_/" title="">
-                            <span class="social-list__icon social-list__icon--instagram"></span>
-                            <span class="social-list__text">Instagram</span>
-                        </a>
-                    </li>
-                    <li class="social-list__item">
-                        <a target="_blank" href="mailto:campaign4genderinclusivity@gmail.com" title="">
-                            <span class="social-list__icon social-list__icon--email"></span>
-                            <span class="social-list__text">Email</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div> <!-- end social-content -->
-
-    </section> <!-- end s-social -->
-
-
-    <!-- footer
-    ================================================== -->
-    <footer class="s-footer">
-
-        <div class="row footer-top">
-            <div class="column large-4 medium-5 tab-full">
-                <div class="footer-logo">
-                    <a class="site-footer-logo" href="index.html">
-                        <img src="images/logo.png" alt="Homepage">
-                    </a>
-                </div>  <!-- footer-logo -->
-                <p>
-                Laborum ad explicabo. Molestiae voluptates est. Quisquam labore tenetur 
-                et assumenda voluptatibus a beatae. Rerum odio ducimus reprehenderit 
-                sit animi laborum nostrum dolorum animi voluptates est voluptatibus a beatae. 
-                </p>
-            </div>
-            <div class="column large-half tab-full">
-                <div class="row">
-                    <div class="column large-7 medium-full">
-                        <h4 class="h6">Get Involved</h4>
-                        <ul class="footer-list">
-                            <li><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSciIDLVXY6v0SboZNZQ2_F4NWdJfdjg2T19ZXVxGbzbDPeZcw/viewform">Start Your Own Chapter!</a></li>
-                            <li><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSdrwQNqGi_TNOTEssMzsEygfjlWcrqpBPWuKNsClzF0aZZj8w/viewform">Join NJ Chapter</a></li>
-                            <li><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfqVS_7yLuEH8n7ESMrQc3qrOL8Eoo0fxRffWKN-_KIpMChQw/viewform?usp=sf_link">Share Your Story</a></li>
-                        </ul>
-        
-                        <p>
-                        <a href="join-us.html" target="_blank" class="btn btn--footer">Join Us</a>
-                        </p>
-                    </div>
-                    <div class="column large-5 medium-full">
-                        <h4 class="h6">Quick Links</h4>
-                        <ul class="footer-list">
-                            <li><a href="index.html">Home</a></li>
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="events.html">Upcoming Events</a></li>
-                            <li><a href="contact.html">Contact</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div> <!-- end footer-top -->
-
-        <div class="row footer-bottom">
-            <div class="column ss-copyright">
-                <span>© Copyright Hesed 2019</span> 
-                <span>Design based on template by <a href="https://www.styleshout.com/">StyleShout</a></span>
-            </div>
-        </div> <!-- footer-bottom -->
-
-        <div class="ss-go-top">
-            <a class="smoothscroll" title="Back to Top" href="#top">
-                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 0l8 9h-6v15h-4v-15h-6z"/></svg>
-            </a>
-        </div> <!-- ss-go-top -->
-
-    </footer> <!-- end s-footer -->
-
-
-    <!-- Java Script
-    ================================================== -->
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/plugins.js"></script>
-    <script src="js/main.js"></script>
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
 
 </body>
+
+</html>
