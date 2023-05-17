@@ -55,6 +55,7 @@
 .hero {
     position: relative;
     height: 100vh;
+    width: 100%;
     z-index: -1;
     overflow: clip;
     background: linear-gradient(#000000, 70%, #7801aa);
@@ -62,8 +63,8 @@
 }
 
 .hero-bg {
-    position: fixed;
-    top: 400%;
+    position: absolute;
+    top: 400vh;
     left: 50%;
     display: grid;
     color: white;
@@ -110,4 +111,10 @@
 
 .hill-three {
     opacity: 0.65;
+}
+
+/* About */
+.about {
+    height: 50vh;
+    background-color: #000000;
 }

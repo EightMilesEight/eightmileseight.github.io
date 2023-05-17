@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="28.098925mm"
+   height="28.098925mm"
+   viewBox="0 0 28.098925 28.098925"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0.2 (e86c870879, 2021-01-15)"
+   sodipodi:docname="icon-unoptimized.svg">
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient929">
+      <stop
+         style="stop-color:#7801aa;stop-opacity:1;"
+         offset="0"
+         id="stop925" />
+      <stop
+         style="stop-color:#ff1cd2;stop-opacity:1"
+         offset="1"
+         id="stop927" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient929"
+       id="linearGradient931"
+       x1="72.892555"
+       y1="145.59248"
+       x2="100.99148"
+       y2="173.69141"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="2.3413308"
+     inkscape:cx="-112.89453"
+     inkscape:cy="70.92594"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     showguides="false"
+     inkscape:pagecheckerboard="true"
+     inkscape:window-width="1366"
+     inkscape:window-height="713"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1">
+    <sodipodi:guide
+       position="-4.0659662e-08,28.098917"
+       orientation="0,106.20066"
+       id="guide917" />
+    <sodipodi:guide
+       position="28.098931,28.098917"
+       orientation="106.20066,0"
+       id="guide919" />
+    <sodipodi:guide
+       position="28.098931,-9.9466724e-06"
+       orientation="0,-106.20066"
+       id="guide921" />
+    <sodipodi:guide
+       position="-4.0659662e-08,-9.9466724e-06"
+       orientation="-106.20066,0"
+       id="guide923" />
+    <sodipodi:guide
+       position="-4.0659662e-08,28.098917"
+       orientation="0,106.20066"
+       id="guide941" />
+    <sodipodi:guide
+       position="28.098931,28.098917"
+       orientation="106.20066,0"
+       id="guide943" />
+    <sodipodi:guide
+       position="28.098931,-9.9466724e-06"
+       orientation="0,-106.20066"
+       id="guide945" />
+    <sodipodi:guide
+       position="-4.0659662e-08,-9.9466724e-06"
+       orientation="-106.20066,0"
+       id="guide947" />
+    <sodipodi:guide
+       position="-4.0659662e-08,28.098917"
+       orientation="0,106.20066"
+       id="guide949" />
+    <sodipodi:guide
+       position="28.098931,28.098917"
+       orientation="106.20066,0"
+       id="guide951" />
+    <sodipodi:guide
+       position="28.098931,-9.9466724e-06"
+       orientation="0,-106.20066"
+       id="guide953" />
+    <sodipodi:guide
+       position="-4.0659662e-08,-9.9466724e-06"
+       orientation="-106.20066,0"
+       id="guide955" />
+    <sodipodi:guide
+       position="-4.0659662e-08,28.098917"
+       orientation="0,106.20066"
+       id="guide957" />
+    <sodipodi:guide
+       position="28.098931,28.098917"
+       orientation="106.20066,0"
+       id="guide959" />
+    <sodipodi:guide
+       position="28.098931,-9.9466724e-06"
+       orientation="0,-106.20066"
+       id="guide961" />
+    <sodipodi:guide
+       position="-4.0659662e-08,-9.9466724e-06"
+       orientation="-106.20066,0"
+       id="guide963" />
+    <sodipodi:guide
+       position="-4.0659662e-08,28.098917"
+       orientation="0,106.20066"
+       id="guide969" />
+    <sodipodi:guide
+       position="28.098931,28.098917"
+       orientation="106.20066,0"
+       id="guide971" />
+    <sodipodi:guide
+       position="28.098931,-9.9466724e-06"
+       orientation="0,-106.20066"
+       id="guide973" />
+    <sodipodi:guide
+       position="-4.0659662e-08,-9.9466724e-06"
+       orientation="-106.20066,0"
+       id="guide975" />
+    <sodipodi:guide
+       position="-98.610404,28.098922"
+       orientation="0,478.90137"
+       id="guide36" />
+    <sodipodi:guide
+       position="28.098921,28.098922"
+       orientation="106.20066,0"
+       id="guide38" />
+    <sodipodi:guide
+       position="28.098921,-4.6088869e-06"
+       orientation="0,-478.90137"
+       id="guide40" />
+    <sodipodi:guide
+       position="-98.610404,-4.6088869e-06"
+       orientation="-106.20066,0"
+       id="guide42" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-72.892555,-145.59248)">
+    <circle
+       style="opacity:1;fill:url(#linearGradient931);fill-opacity:1;stroke:#ff1cd2;stroke-width:0;stroke-opacity:0.898039"
+       id="path875"
+       cx="86.942017"
+       cy="159.64194"
+       r="14.049461" />
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:30.524px;line-height:1.25;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold';fill:#ffffff;stroke-width:0.763104"
+       x="79.686043"
+       y="167.88756"
+       id="text939"
+       transform="scale(0.9834506,1.0168279)"><tspan
+         sodipodi:role="line"
+         id="tspan937"
+         x="79.686043"
+         y="167.88756"
+         style="fill:#ffffff;stroke-width:0.763104">8</tspan></text>
+  </g>
+</svg>
