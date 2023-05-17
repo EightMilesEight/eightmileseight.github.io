@@ -1,0 +1,113 @@
+/* Fonts */
+@font-face {
+    font-family: 'opensans-regular';
+    src: url('fonts/opensans/OpenSans-Regular-webfont.eot');
+    src: url('fonts/opensans/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/opensans/OpenSans-Regular-webfont.woff') format('woff'),
+    url('fonts/opensans/OpenSans-Regular-webfont.ttf') format('truetype'),
+    url('fonts/opensans/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'opensans-bold';
+    src: url('fonts/opensans/OpenSans-Bold-webfont.eot');
+    src: url('fonts/opensans/OpenSans-Bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('fonts/opensans/OpenSans-Bold-webfont.woff') format('woff'),
+    url('fonts/opensans/OpenSans-Bold-webfont.ttf') format('truetype'),
+    url('fonts/opensans/OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Animations */
+@keyframes spin {
+    100% {
+        transform: rotate(1turn) translate(var(--r));
+    }
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Text */
+.big-header {
+    margin: 0 0 -0.3em;
+    padding: 0;
+    font-size: 5em;
+}
+
+.text-gradient {
+    background: linear-gradient(120deg, #7801aa, #ff1cd2);
+    background: -webkit-linear-gradient(120deg, #7801aa, #ff1cd2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Hero */
+.hero {
+    position: relative;
+    height: 100vh;
+    z-index: -1;
+    overflow: clip;
+    background: linear-gradient(#000000, 70%, #7801aa);
+    font-family: "opensans-bold", sans-serif;
+}
+
+.hero-bg {
+    position: fixed;
+    top: 400%;
+    left: 50%;
+    display: grid;
+    color: white;
+}
+
+.star {
+    color: #ffffff;
+    height: var(--s);
+    width: var(--s);
+    grid-area:1/1;
+    text-align: center;
+    animation: spin var(--t) var(--d,0s) linear infinite;
+    transform: rotate(0) translate(var(--r)) rotate(0);
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 2em;
+}
+
+.hero-hills {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    height: 30vh;
+}
+
+.hero-hills svg {
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
+.hill-two {
+    opacity: 0.60;
+}
+
+.hill-three {
+    opacity: 0.65;
+}
