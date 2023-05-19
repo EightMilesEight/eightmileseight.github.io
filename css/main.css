@@ -51,6 +51,24 @@
     -webkit-text-fill-color: transparent;
 }
 
+/* Preloader */
+.preloader {
+    position: fixed;
+    display: none;
+    height: 100%;
+    width: 100%;
+    background-color: #d16aff;
+    opacity: 1;
+}
+
+.preloader-logo {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+}
+
 /* Hero */
 .hero {
     position: relative;
@@ -71,11 +89,14 @@
 }
 
 .star {
+    display: block;
     color: #ffffff;
+    background-color: #ffffff;
     height: var(--s);
     width: var(--s);
     grid-area:1/1;
     text-align: center;
+    border-radius: 5px;
     animation: spin var(--t) var(--d,0s) linear infinite;
     transform: rotate(0) translate(var(--r)) rotate(0);
 }
