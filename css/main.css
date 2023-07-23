@@ -189,6 +189,7 @@ b {
 
 .hero-star {
     margin-top: 2px;
+    transition: none;
     animation: hero-star-y var(--p) var(--d,0s) ease-out infinite, hero-star-x var(--p) var(--d,0s) linear infinite;
 }
 
