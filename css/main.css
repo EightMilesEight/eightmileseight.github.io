@@ -189,7 +189,9 @@ b {
 
 .hero-star {
     margin-top: 2px;
-    animation: hero-star-y var(--p) var(--d,0s) ease-out infinite, hero-star-x var(--p) var(--d,0s) linear infinite;
+    animation: hero-star-y ease-out infinite, hero-star-x linear infinite;
+    animation-delay: var(--d,0s);
+    animation-duration: var(--p);
 }
 
 .hero-text {
