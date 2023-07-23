@@ -192,6 +192,7 @@ b {
     animation: hero-star-y ease-out infinite, hero-star-x linear infinite;
     animation-delay: var(--d,0s);
     animation-duration: var(--p);
+    transition: 0s;
 }
 
 .hero-text {
