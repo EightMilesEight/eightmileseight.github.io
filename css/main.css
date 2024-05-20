@@ -1,11 +1,16 @@
-* {
-    transition: 1.5s ease-in-out, 1s opacity ease-out;
+.palette-one {
+    --primary: #7801aa;
+    --secondary: #ff1cd2;
+    --tertiary: #d16aff;
+    --text: #ffffff;
+    --background: #000000;
 }
 
 body {
-    color: #ffffff;
+    color: var(--text);
     font-family: "opensans-regular", sans-serif;
     line-height: 1.2;
+    background-color: var(--background);
 }
 
 /* Fonts */
@@ -27,6 +32,13 @@ body {
     url('fonts/opensans/OpenSans-Bold-webfont.woff') format('woff'),
     url('fonts/opensans/OpenSans-Bold-webfont.ttf') format('truetype'),
     url('fonts/opensans/OpenSans-Bold-webfont.svg#open_sansbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cutive-mono';
+    src: url('fonts/cutive-mono/CutiveMono-Regular.ttf');
     font-weight: normal;
     font-style: normal;
 }
@@ -96,16 +108,22 @@ body {
 }
 
 /* Text */
+
 .big-header {
-    margin: 0 0 -0.3em;
+    margin: 0;
     padding: 0;
     font-size: 5em;
+}
+
+.big-header ~ h2{
+    margin: 0;
+    padding: 0;
 }
 
 .sub-header {
     width: 100%;
     text-align: center;
-    font-size: 4em;
+    font-size: 3em;
     font-family: "opensans-bold", sans-serif;
 }
 
@@ -114,50 +132,32 @@ body {
     font-size: 3em;
     font-family: "opensans-bold", sans-serif;
     text-align: center;
-    color: #7801aa;
+    color: var(--primary);
 }
 
 b {
-    color: #d16aff;
+    color: var(--tertiary);
 }
 
 .text-gradient-1 {
-    background: linear-gradient(120deg, #7801aa, #ff1cd2);
-    background: -webkit-linear-gradient(120deg, #7801aa, #ff1cd2);
+    background: linear-gradient(120deg, var(--primary), var(--secondary));
+    background: -webkit-linear-gradient(120deg, var(--primary), var(--secondary));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .text-gradient-2 {
-    background: linear-gradient(120deg, #ff1cd2, #7801aa);
-    background: -webkit-linear-gradient(120deg, #ff1cd2, #7801aa);
+    background: linear-gradient(120deg, var(--secondary), var(--primary));
+    background: -webkit-linear-gradient(120deg, var(--secondary), var(--primary));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
 .text-gradient-3 {
-    background: linear-gradient(120deg, #d16aff, #7801aa);
-    background: -webkit-linear-gradient(120deg, #d16aff, #7801aa);
+    background: linear-gradient(120deg, var(--tertiary), var(--primary));
+    background: -webkit-linear-gradient(120deg, var(--tertiary), var(--primary));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-
-/* Preloader */
-.preloader {
-    position: fixed;
-    display: none;
-    height: 100%;
-    width: 100%;
-    background-color: #d16aff;
-    opacity: 1;
-}
-
-.preloader-logo {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    z-index: 1;
-    transform: translate(-50%, -50%);
 }
 
 /* Hero */
@@ -166,8 +166,10 @@ b {
     height: 100vh;
     width: 100%;
     overflow: clip;
-    background: linear-gradient(#000000, 70%, #7801aa);
+    background: linear-gradient(var(--background), 70%, var(--primary));
     font-family: "opensans-bold", sans-serif;
+    z-index: -1;
+    transition: 0.2s ease-out;
 }
 
 .hero-bg {
@@ -180,8 +182,8 @@ b {
 
 .star {
     display: block;
-    color: #ffffff;
-    background-color: #ffffff;
+    color: var(--text);
+    background-color: var(--text);
     height: var(--s);
     width: var(--s);
     border-radius: 1rem;
@@ -196,14 +198,25 @@ b {
 }
 
 .hero-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    z-index: 1;
-    transform: translate(-50%, -50%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
     text-align: center;
-    font-size: 2em;
+    z-index: 1;
+    font-size: 0.75em;
     font-family: "opensans-bold", sans-serif;
+}
+
+@media (min-width: 800px) {
+    .hero-text {
+        font-size: 2em;
+    }
+}
+
+.hero-drift {
+    display: inline-block;
 }
 
 .hero-hills {
@@ -229,137 +242,3 @@ b {
     opacity: 0.65;
 }
 
-/* Slides */
-.slide {
-    position: relative;
-    min-height: 100vh;
-    width: 100%;
-    padding-top: 1px;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-}
-
-.slide-content {
-    width: 100%;
-}
-
-.super-slide {
-    justify-content: space-between;
-    align-items: center;
-}
-
-.no-js .super-slide {
-    align-content: flex-start;
-}
-
-.no-js .super-slide > .slide-content {
-    position: sticky;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.no-js .sub-slide-container .slide {
-    min-height: unset;
-    height: auto;
-}
-
-.sub-slide-container {
-    width: 100%;
-}
-
-.about {
-    padding: 5rem 0;
-    background-color: #000000;
-}
-
-.row {
-    display: flex;
-    margin: auto 12%;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.image-row {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.half-text-container {
-    max-width: 50%;
-}
-
-.half-text-container h2 {
-    font-family: "opensans-bold", sans-serif;
-    font-size: 2rem;
-}
-
-.half-text-container p {
-    line-height: 1.5;
-}
-
-.floaty-image-container {
-    position: relative;
-    height: 16rem;
-    width: 18rem;
-    min-width: 18rem;
-    margin: auto;
-    overflow: clip;
-}
-
-.floaty-image {
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 16rem;
-    height: auto;
-    border-radius: 0.7rem;
-    transform: translate(calc(-50% + 1rem), calc(-50% + 1rem));
-    transform-origin: 0 0;
-    rotate: 1.5deg;
-    animation: floaty-x 14s var(--d,0s) ease-in-out infinite, floaty-y 18s var(--d,0s) ease-in-out infinite, floaty-rotate 10s var(--d,0s) ease-in-out infinite;
-    z-index: 1;
-}
-
-.floaty-image-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-    transition: ease 0.5s;
-    opacity: 0;
-    box-shadow: inset #000000 0 0 3rem;
-}
-
-.floaty-image:hover .floaty-image-overlay,
-.floaty-image:focus .floaty-image-overlay,
-.floaty-image:active .floaty-image-overlay {
-    opacity: 1;
-}
-
-.floaty-image > img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    border-radius: 0.7rem;
-}
-
-.floaty-image-overlay > svg {
-    position: absolute;
-    bottom: 1rem;
-    right: 0.6rem;
-    height: 1.5rem;
-}
-
-.outlined-box {
-    padding: 2rem;
-    border: #d16aff 4px solid;
-    border-radius: 3rem;
-    box-shadow: #000000 0 0 1rem inset;
-    margin: auto 7rem;
-    text-align: center;
-}
